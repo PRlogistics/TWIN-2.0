@@ -17,3 +17,5 @@ touch {.gitignore,README.md,render.yaml,LICENSE}
 
 echo "✅ Structure created at: $(pwd)"
 echo "Next: Add content to files"
+cd ~/twin-platform
+find . -type f -name "*.py" -o -name "*.yml" -o -name "*.yaml" -o -name "*.txt" -o -name "*.json" | head -20
