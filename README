@@ -1,0 +1,13 @@
+cat > README.md << 'EOF'
+# TWIN - Real-time Voice Translation
+
+5-star voice translation platform built with Python 3.14, FastAPI, React, and WebRTC.
+
+## Quick Start
+
+```bash
+# Start infrastructure
+docker-compose -f docker/docker-compose.yml up -d
+
+# API available at http://localhost:8000
+# Health check: http://localhost:8000/health
