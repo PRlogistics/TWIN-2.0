@@ -1,0 +1,15 @@
+cat > backend/requirements.txt << 'EOF'
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+websockets==13.1
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+redis==5.2.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+pydantic==2.9.2
+pydantic-settings==2.6.1
+structlog==24.4.0
+pytest==8.3.3
+pytest-asyncio==0.24.0
+EOF
